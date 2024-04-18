@@ -1,0 +1,16 @@
+Sistema de depósito:
+    requisitos
+        - valores positivos != de valores negativos.
+        - informações de todos os depósitos para o extrato.
+
+Sistema de saque:
+    requisitos
+        - limitar 3 saques diários com limite de 500 reais cada, 1500 por dia.
+        - Mensagem informando que não há saldo suficiente.
+        - informações de todos os saques para o extrato.
+
+Sistema de Extrato:
+    requisitos
+        - listar todos os depósitos e saques
+        - no fim da listagem deve ser exibido o saldo atual.
+        - valores devem conter o formato R$ xxxx.xx
